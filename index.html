@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/style.css">
+        <meta name="author" content="TheCarlo">
+        <meta name="keywords" content="JavaScript, Project, HTML, CSS">
+        <meta name="description" content="First JS Project">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Page Project</title>
+
+    </head>
+
+    <body>
+        <header>
+            <h1 class="header-title">Personal Product Store</h1>
+        </header>
+
+        <main>
+
+            <div class="filter">
+                <div class="filter-inputs">
+                    <div>
+                        <label class="input-lable" for="search-name">Search By Name </label>
+                        <input type="text" id="search-name" name="SearchName" >
+                    </div>
+                    <div>
+                        <label class="input-lable" for="search-price">Search By Price </label>
+                        <input type="number" id="search-price" name="SearchPrice" >
+                        <button class="search-input-btn">Search</button>
+                    </div>
+                </div>
+
+                <div class="filter-btn">
+                    <button data-filter="all" class="search-btn selected">All</button>
+                    <button data-filter="tech" class="search-btn">Tech</button>
+                    <button data-filter="clothing" class="search-btn">Clothing</button>
+                    <button data-filter="health" class="search-btn">Health</button>
+                </div>
+            </div>
+
+            <div class="product">
+
+                <div class="product-item" data-category="tech">
+                    <img class="product-img" src="./img/Tech/ales-nesetril-Im7lZjxeLhg-unsplash.jpg" alt="laptop">
+                    <strong class="product-name">Laptop</strong>
+                    <span class="product-price">$ 1799</span>
+                </div>
+
+                <div class="product-item" data-category="clothing">
+                    <img class="product-img" src="./img/Cloth/kal-visuals-d5GlpSOAzzg-unsplash.jpg" alt="pants">
+                    <strong class="product-name">Jean Pants</strong>
+                    <span class="product-price">$ 69</span>
+                </div>
+
+                <div class="product-item" data-category="health">
+                    <img class="product-img" src="./img/Health/john-karlo-mendoza-kJk11oNHjG8-unsplash.jpg" alt="hair wax">
+                    <strong class="product-name">hair Wax</strong>
+                    <span class="product-price">$ 37</span>
+                </div>
+
+                <div class="product-item" data-category="clothing">
+                    <img class="product-img" src="./img/Cloth/justin-buisson-JU5_bUxr5Rg-unsplash.jpg" alt="jumper">
+                    <strong class="product-name">Jumper</strong>
+                    <span class="product-price">$ 49</span>
+                </div>
+
+                <div class="product-item" data-category="tech">
+                    <img class="product-img" src="./img/Tech/hostaphoto-XFhny3yLA0c-unsplash.jpg" alt="airpod">
+                    <strong class="product-name">AirPod</strong>
+                    <span class="product-price">$ 399</span>
+                </div>
+
+                <div class="product-item" data-category="health">
+                    <img class="product-img" src="./img/Health/jamal-yaliyev-lXkXpMh83hc-unsplash.jpg" alt="comb">
+                    <strong class="product-name">Comb</strong>
+                    <span class="product-price">$ 14</span>
+                </div>
+
+                <div class="product-item" data-category="tech">
+                    <img class="product-img" src="./img/Tech/mario-canino-0Tvm2hBuD2k-unsplash.jpg" alt="watch">
+                    <strong class="product-name">Watch</strong>
+                    <span class="product-price">$ 799</span>
+                </div>
+
+                <div class="product-item" data-category="health">
+                    <img class="product-img" src="./img/Health/the-nix-company-3kQkGp7T_60-unsplash.jpg" alt="cream">
+                    <strong class="product-name">Cream</strong>
+                    <span class="product-price">$ 19</span>
+                </div>
+
+                <div class="product-item" data-category="clothing">
+                    <img class="product-img" src="./img/Cloth/wioson-jiang-c9xFSxjqT08-unsplash.jpg" alt="glasses">
+                    <strong class="product-name">Glasses</strong>
+                    <span class="product-price">$ 39</span>
+                </div>
+
+                <div class="product-item" data-category="health">
+                    <img class="product-img" src="./img/Health/robert-arnar-z0xIHTF5HNk-unsplash.jpg" alt="perfume">
+                    <strong class="product-name">Perfume</strong>
+                    <span class="product-price">$ 89</span>
+                </div>
+
+                <div class="product-item" data-category="tech">
+                    <img class="product-img" src="./img/Tech/filip-baotic-ysJjYBdmjQk-unsplash.jpg" alt="Phone">
+                    <strong class="product-name">Phone</strong>
+                    <span class="product-price">$ 1099</span>
+                </div>
+
+                <div class="product-item" data-category="clothing">
+                    <img class="product-img" src="./img/Cloth/joshua-koblin-t1zpIy-mfiU-unsplash.jpg" alt="shoes">
+                    <strong class="product-name">Shoes</strong>
+                    <span class="product-price">$ 109</span>
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer>
+            <h2>First JavaScript Project with DOM</h2>
+        </footer>
+        
+
+        <script src="./js/app.js"></script>
+    </body>
+</html>
